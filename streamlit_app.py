@@ -3,7 +3,7 @@ import pandas as pd
 from urllib.error import URLError
 
 def get_athlete_data():
-    df = pd.read_csv("/Users/carmencolomer/Dropbox/2024/Titans/Drill_Predictor/output_file_average_by_period_and_position_new.csv")
+    df = pd.read_csv("drilldf.csv")
     return df
 
 try:
