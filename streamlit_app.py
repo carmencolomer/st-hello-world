@@ -10,7 +10,7 @@ try:
     st.title("Titans Drill Predictor")  # Adding the heading
     
     # Adding the logo in the top right-hand side
-    st.image("/Users/carmencolomer/Dropbox/2024/Titans/Drill_Predictor/Gold-Coast-Titans-Logo.png", width=300)
+    st.image("Gold-Coast-Titans-Logo.png", width=300)
 
     df = get_athlete_data()
     period_names = st.multiselect("Choose period names", df["Period Name"].unique())
