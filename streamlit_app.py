@@ -18,7 +18,7 @@ try:
     # Allow users to input durations for each selected period name
     period_durations = {}
     for period_name in period_names:
-        period_durations[period_name] = st.number_input(f"Enter duration for {period_name} (minutes):",
+        period_durations[period_name] = st.number_input("Enter duration for {period_name} (minutes):",
                                                         min_value=0,
                                                         value=60)
     
